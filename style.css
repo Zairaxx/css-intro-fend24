@@ -54,20 +54,19 @@ div h2 {
 .container {
     display:flex;
     background:blue;
-    margin: 100px;
     padding:25px 25px;
     border:2px red solid;
 
-    /* följande är två sätt att sätta margin på samma sätt */
+    /* Följande är två sätt att sätta margin på samma sätt. Kan du korta ner alternativ 1 ytterligare? */
     
     /* Alternativ 1 */
-    /* margin: 100px 200px 50px 50px; */
+    margin: 100px 50px 100px 50px;
 
     /* Alternativ 2 */
     /*
         margin-top:100px;
-        margin-right:200px;
-        margin-bottom:50px;
+        margin-right:50px;
+        margin-bottom:100px;
         margin-left:50px;
      */
 }
