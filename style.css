@@ -1,0 +1,23 @@
+h1 {
+    background:#a71919;
+    color: #0ab;
+    /* opacity: 0,5; */
+    /* color:rgba(255,0,0,0.5); */
+    font-size:48px;
+    text-align:center;
+}
+
+h2 {
+    background:peachpuff;
+}
+
+.green-heading {
+    background:green;
+    color:white;
+    height:50px;
+    width:50px;
+}
+
+div {
+    
+}
