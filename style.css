@@ -14,10 +14,14 @@ h2 {
 .green-heading {
     background:green;
     color:white;
-    height:50px;
-    width:50px;
 }
 
-div {
-    
+#first-h2 {
+    background:blue;
+    color:white;
+}
+
+div h2 {
+    background:black;
+    color:white;
 }
