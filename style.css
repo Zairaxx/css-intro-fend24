@@ -1,8 +1,11 @@
 h1 {
     background:#a71919;
+    /* Vi kan skriva färger på flera sätt - här är två sätt att sätta samma färg; Hexcodes samt rgb; */
     color: #0ab;
-    /* opacity: 0,5; */
+    color: rgb(0, 170, 187);
+
     /* color:rgba(255,0,0,0.5); */
+
     font-size:48px;
     text-align:center;
 }
@@ -11,10 +14,30 @@ h2 {
     background:peachpuff;
 }
 
+/* Styla ett element med ett ID */
+#first {
+    background:blue;
+}
+
+/* Styla ett element som har BÅDE big-font och green-heading klasserna */
+.big-font.green-heading {
+    background:orange;
+    font-size:30px;
+    text-transform: uppercase;
+}
+
+p {
+    background:red;
+}
+
+/* Varför blir inte elementet med klassen green-heading grön trots att vi skriver det nedan? */
 .green-heading {
     background:green;
     color:white;
-    display:inline
+}
+
+p {
+    background:pink;
 }
 
 #first-h2 {
@@ -22,6 +45,7 @@ h2 {
     color:white;
 }
 
+/* Alla h2:or inuti en div ska ha svart background och vit text */
 div h2 {
     background:black;
     color:white;
@@ -34,17 +58,24 @@ div h2 {
     padding:25px 25px;
     border:2px red solid;
 
-    height:200px;
-    width:200px;
-    /* margin-top:100px;
-    margin-left:50px;
-    margin-bottom:50px;
-    margin-right:200px; */
+    /* följande är två sätt att sätta margin på samma sätt */
+    
+    /* Alternativ 1 */
+    /* margin: 100px 200px 50px 50px; */
+
+    /* Alternativ 2 */
+    /*
+        margin-top:100px;
+        margin-right:200px;
+        margin-bottom:50px;
+        margin-left:50px;
+     */
 }
 
 span {
-    height:100px;
-    width:100px;
+    height:100000px;
+    width:100000px;
+    /* Span är ett inline-element dvs har display:inline, så height och width fungerar inte. Testa ändra det till display:block och se vad som händer*/
     display:inline;
     background:yellow;
 }
